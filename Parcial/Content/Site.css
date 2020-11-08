@@ -1,0 +1,155 @@
+﻿
+select {
+    cursor: pointer;
+}
+
+label {
+    font-size: 14px !important;
+    font-weight: bold;
+    padding: 5px 5px 0 0;
+}
+
+
+body {
+    padding-top: 3.7rem;
+    height: 100vh;
+    font-size: 12px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.marg {
+    margin-right: 10px;
+}
+
+
+
+#menu1 > ul > li > a, #menu > ul > li > a, .level2 {
+    padding: 8px 10px !important;
+    width: auto;
+    height: auto;
+    display: block;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 0px;
+    font-weight: 500;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+
+#menu1 > ul > li > a:hover, #menu > ul > li > a:hover {
+    color: #ffffff !important;
+    background-color: #808080;
+    /*background-color: #107BE9;*/
+}
+
+.style-menu {
+    background: #000000;
+    /*background-color: #013162;*/
+}
+
+.fa-exclamation-circle {
+    font-size: 20px !important;
+}
+
+
+#menu_top {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    background: #548404;
+    padding: 8px 40px !important;
+    width: auto;
+    height: auto;
+    display: block;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 0px;
+    font-weight: 500;
+    border-radius: 0 0 0 5px;
+    font-size: 12px;
+}
+
+
+
+
+.modal-confirm .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.modal-confirm .modal-header {
+    border-bottom: none;
+    position: relative;
+}
+
+.modal-confirm h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -10px;
+}
+
+.modal-confirm .close {
+    position: absolute;
+    top: -5px;
+    right: -2px;
+}
+
+.modal-confirm .modal-body {
+    color: #999;
+}
+
+.modal-confirm .modal-footer {
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 10px 15px 25px;
+}
+
+    .modal-confirm .modal-footer a {
+        color: #999;
+    }
+
+.modal-confirm .icon-box {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    z-index: 9;
+    text-align: center;
+    border: 3px solid #f15e5e;
+}
+
+    .modal-confirm .icon-box span {
+        color: #f15e5e;
+        font-size: 46px;
+        display: inline-block;
+        margin-top: 13px;
+    }
+
+
+
+.err {
+    color: red;
+}
+
