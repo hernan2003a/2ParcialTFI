@@ -44,5 +44,15 @@ namespace BLL
             }
             return cursos;
         }
+
+        public bool Modificar(BE.Curso curso)
+        {
+            return MP_Curso.Modificar(curso);
+        }
+
+        public bool Alta(BE.Curso curso)
+        {
+            return MP_Curso.Alta(curso);
+        }
     }
 }

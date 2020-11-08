@@ -38,10 +38,10 @@
                         
                         </div>
                        
-                        </div>
-                </div>
-                <!-- /row -->
+                 </div>
             </div>
+                <!-- /row -->
+         </div>
     </asp:PlaceHolder>
             
         

@@ -67,6 +67,8 @@ namespace BE
         }
 
         public int Id { get; set; }
+        public int Estado { get; set; }
+        public int Eliminado { get; set; }
 
         public override string ToString()
         {

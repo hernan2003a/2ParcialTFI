@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - PARCIAL TFI</title>
+    <title><%: Page.Title %> 2do PARCIAL TFI</title>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
@@ -15,8 +15,6 @@
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
-                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
-                <%--Framework Scripts--%>
                 <asp:ScriptReference Name="MsAjaxBundle" />
                 <asp:ScriptReference Name="jquery" />
                 <asp:ScriptReference Name="bootstrap" />
@@ -29,35 +27,44 @@
                 <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
                 <asp:ScriptReference Name="WebFormsBundle" />
-                <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
 
+<%--        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="~/ABMCurso.aspx">ABM Curso</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="~/ABMAlumno.aspx">ABM Alumno</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="~/ABMInscripcion.aspx">ABM Inscripci&oacute;n</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="~/ListarCursos.aspx">Cursos</a>
+            </li>
+          </ul>
+        </nav>--%>
+
+
     <nav class="navbar navbar-expand-md navbar-dark fixed-top style-menu">
             <a runat="server" href="~/Default" class="fa fa-home  rounded marg"></a>
-              
- <%--           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarCollapse" aria-expanded="true">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-              --%>
-                    <div class="collapse navbar-collapse" id="myNavbar">
+
+
+                    <div class="navbar navbar-expand-sm bg-light" id="myNavbar">
                                   <ul class="nav navbar-nav">
                                              <asp:Menu ID="menu1" runat="server" Orientation="Horizontal" 
                                         IncludeStyleBlock="false" StaticMenuStyle-CssClass="nav navbar-nav"  DynamicMenuStyle-CssClass="dropdown-menu">
                                           <Items>
+                                            <asp:MenuItem Text="ABM Curso"  NavigateUrl="~/ABMCurso.aspx"></asp:MenuItem>
                                             <asp:MenuItem Text="ABM Alumno"  NavigateUrl="~/ABMAlumno.aspx"></asp:MenuItem>
                                             <asp:MenuItem Text="ABM Inscripci&oacute;n"  NavigateUrl="~/ABMInscripcion.aspx"></asp:MenuItem>
-                                            <asp:MenuItem Text="Cursos"  NavigateUrl="~/ListarCursos.aspx"></asp:MenuItem>
-                                     
+                                            <asp:MenuItem Text="Listado de Cursos"  NavigateUrl="~/ListarCursos.aspx"></asp:MenuItem>
                                           </Items>
-                                         
                                              </asp:Menu>
-                                           
                                     </ul>
-                                  
-
                     </div>
-              
         </nav>
         <div class="body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">

@@ -6,7 +6,7 @@ namespace DAL
     {
         public static void DalError(string str, string TITULO)
         {
-            //MessageBox.Show(str, TITULO, MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+           //MessageBox.Show(str, TITULO, MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
         }
 
         public static void Information(string str, string TITULO)

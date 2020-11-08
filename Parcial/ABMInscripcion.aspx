@@ -24,7 +24,7 @@
         <hr />
 
         <asp:HiddenField Value="0" ID="iptCodigo" runat="server" />
-        <div class="container-flParciald form" style="background: #f8f9fa;">
+        <div class="container-fluid form" style="background: #f8f9fa;">
             <br />
             <div class='form-group clearfix'>
                 <div class='row'>
@@ -91,7 +91,7 @@
 
 
 
-         <a href="~/AdminEmpleado.aspx" runat="Server" Height="26px" Width="68px" class="btn btn-danger pull-right">Volver</a>
+         <a href="~/ABMInscripcion.aspx" runat="Server" Height="26px" Width="68px" class="btn btn-danger pull-right">Volver</a>
         <asp:Button ID="btnGuardar" runat="server" Style="margin-right: 10px;" CssClass="btn btn-success  pull-right" Text="Guardar" OnClick="btnGuardar_Click" Height="35px" Width="85px" />
      <br />
 
